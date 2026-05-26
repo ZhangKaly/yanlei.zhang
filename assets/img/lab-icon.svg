@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Fancy calligraphic theta (θ) -->
+  <path
+    d="M70,50
+       Q70,80 50,80
+       Q30,80 30,50
+       Q30,20 50,20
+       Q70,20 70,50
+       M35,40
+       Q50,50 65,60"
+    fill="none"
+    stroke="#b39ddb"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg> 
