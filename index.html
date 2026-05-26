@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <base href="/yanleizhang.github.io/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yanlei Zhang – Postdoctoral Researcher at Mila, Yale University, and Helmholtz Munich. Research in ML, optimal transport, diffusion geometry, and biomedical discovery.">
+    <meta property="og:title" content="Yanlei Zhang">
+    <meta property="og:description" content="Postdoctoral Researcher · Mila · Yale · Helmholtz Munich">
+    <meta property="og:type" content="website">
+    <title>Yanlei Zhang</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <!-- Academicons -->
+    <link href="https://cdn.jsdelivr.net/npm/academicons@1.9.4/css/academicons.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar navbar-expand-md fixed-top" id="mainNav">
+        <div class="container-lg">
+            <a class="navbar-brand" href="#about">Yanlei Zhang</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+                aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#teaching">Teaching</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#honors">Honors</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== MAIN ========== -->
+    <div class="container-lg main-content">
+
+        <!-- ===== ABOUT ===== -->
+        <section id="about">
+            <div class="row gx-5 align-items-start">
+
+                <!-- Profile Sidebar -->
+                <div class="col-md-3 text-center profile-sidebar">
+                    <!-- Photo with initials fallback -->
+                    <img src="assets/img/profile.jpg"
+                         onerror="this.style.display='none';document.getElementById('avatar').style.display='flex';"
+                         alt="Yanlei Zhang"
+                         class="profile-img rounded-circle mb-3">
+                    <div id="avatar" class="initials-avatar rounded-circle mb-3" style="display:none;">YZ</div>
+
+                    <h1 class="profile-name">Yanlei Zhang</h1>
+                    <p class="profile-title">Postdoctoral Researcher</p>
+
+                    <div class="affiliations mb-3">
+                        <p class="affil-item">
+                            <a href="https://mila.quebec/en/" target="_blank" rel="noopener">Mila – Quebec AI Institute</a>
+                        </p>
+                        <p class="affil-item">
+                            <a href="https://krishnaswamylab.org" target="_blank" rel="noopener">Yale University</a>
+                        </p>
+                        <p class="affil-item">
+                            <a href="https://www.helmholtz-munich.de/en/aidos" target="_blank" rel="noopener">Helmholtz Munich</a>
+                        </p>
+                    </div>
+
+                    <div class="social-icons mb-3">
+                        <a href="mailto:yanlei.zhang@mila.quebec" title="Email" class="social-icon">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=2jemfnQAAAAJ" title="Google Scholar"
+                           target="_blank" rel="noopener" class="social-icon">
+                            <i class="ai ai-google-scholar"></i>
+                        </a>
+                        <!-- Add GitHub: <a href="https://github.com/YOUR_USERNAME" title="GitHub" target="_blank" class="social-icon"><i class="fab fa-github"></i></a> -->
+                        <!-- Add LinkedIn: <a href="https://linkedin.com/in/YOUR_PROFILE" title="LinkedIn" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a> -->
+                    </div>
+                </div>
+
+                <!-- Bio -->
+                <div class="col-md-9 bio-content">
+                    <p>
+                        I am a Postdoctoral Researcher at
+                        <a href="https://mila.quebec/en/" target="_blank" rel="noopener">Mila – Quebec AI Institute</a>,
+                        working with
+                        <a href="https://scholar.google.com/citations?user=FxiJ3AQAAAAJ" target="_blank" rel="noopener">Guy Wolf</a>
+                        and
+                        <a href="https://yoshuabengio.org" target="_blank" rel="noopener">Yoshua Bengio</a>.
+                        I also collaborate closely with
+                        <a href="https://krishnaswamylab.org" target="_blank" rel="noopener">Smita Krishnaswamy</a>'s
+                        lab at Yale University, and I am affiliated with the
+                        <a href="https://www.helmholtz-munich.de/en/aidos" target="_blank" rel="noopener">AIDOS group</a>
+                        under
+                        <a href="https://bastian.rieck.me" target="_blank" rel="noopener">Bastian Rieck</a>
+                        at Helmholtz Munich.
+                    </p>
+                    <p>
+                        I received my Ph.D. in Mathematics from Queen's University under the supervision of
+                        Professor Andrew Lewis.
+                    </p>
+                    <p>
+                        My research focuses on developing novel machine learning methodologies informed by tools from
+                        advanced mathematics, with a focus on applications in biomedical discovery.
+                        Current interests include:
+                    </p>
+                    <ul class="research-interests">
+                        <li>Optimal transport, generative modeling, and deep learning to explore cellular development and trajectory analysis</li>
+                        <li>Diffusion geometry and manifold learning for high-dimensional and single-cell data</li>
+                        <li>Graph signal processing and PDEs for molecular structure prediction</li>
+                        <li>Neural representation learning and brain activity investigation</li>
+                    </ul>
+                    <p class="mt-3 contact-line">
+                        <i class="fas fa-envelope me-1 text-muted"></i>
+                        <a href="mailto:yanlei.zhang@mila.quebec">yanlei.zhang@mila.quebec</a>
+                        &ensp;·&ensp;
+                        <a href="mailto:ykzhang@mit.edu">ykzhang@mit.edu</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="section-divider">
+
+        <!-- ===== NEWS ===== -->
+        <section id="news">
+            <h2 class="section-header">News</h2>
+            <div class="news-container">
+
+                <div class="news-row">
+                    <span class="news-date">May 2025</span>
+                    <span class="news-body">Paper accepted at <strong>ICASSP 2025</strong>: <em>Principal Curvatures Estimation with Applications to Single Cell Data</em>.</span>
+                </div>
+                <div class="news-row">
+                    <span class="news-date">Apr 2025</span>
+                    <span class="news-body">Paper accepted at <strong>Frontiers in Psychiatry</strong>: <em>Deep Multimodal Representations and Classification of First-Episode Psychosis via Live Face Processing</em>.</span>
+                </div>
+                <div class="news-row">
+                    <span class="news-date">Jan 2025</span>
+                    <span class="news-body">Paper accepted at <strong>ICLR 2025</strong>: <em>AdaFisher: Adaptive Second Order Optimization via Fisher Information</em>.</span>
+                </div>
+                <div class="news-row">
+                    <span class="news-date">Jan 2025</span>
+                    <span class="news-body">Paper accepted at <strong>AISTATS 2025</strong>: <em>Geometry-Aware Generative Autoencoders for Warped Riemannian Metric Learning and Generative Modeling on Data Manifolds</em>.</span>
+                </div>
+                <div class="news-row">
+                    <span class="news-date">Fall 2025</span>
+                    <span class="news-body">Teaching <strong>MATH 6493: Geometric Data Analysis</strong> at Mila.
+                        <a href="https://mat6493.wolf.courses/" target="_blank" rel="noopener">Course page ↗</a>
+                    </span>
+                </div>
+                <div class="news-row">
+                    <span class="news-date">Dec 2023</span>
+                    <span class="news-body">Paper accepted at <strong>NeurIPS 2023</strong>: <em>A Heat Diffusion Perspective on Geodesic Preserving Dimensionality Reduction</em>.</span>
+                </div>
+                <div class="news-row">
+                    <span class="news-date">Jul 2023</span>
+                    <span class="news-body">Paper accepted at <strong>ICML 2023</strong>: <em>Neural FIM for Learning Fisher Information Metrics from Point Cloud Data</em>.</span>
+                </div>
+                <div class="news-row">
+                    <span class="news-date">2023</span>
+                    <span class="news-body">Papers on Schrödinger bridges (<strong>AISTATS 2023</strong>) and flow matching (<strong>TMLR 2023</strong>) published.</span>
+                </div>
+                <div class="news-row">
+                    <span class="news-date">Fall 2023</span>
+                    <span class="news-body">First offering of <strong>MATH 6493: Geometric Data Analysis</strong> at Mila as instructor.</span>
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="section-divider">
+
+        <!-- ===== PUBLICATIONS ===== -->
+        <section id="publications">
+            <h2 class="section-header">Publications</h2>
+            <p class="pub-note">
+                See <a href="https://scholar.google.com/citations?user=2jemfnQAAAAJ" target="_blank" rel="noopener">Google Scholar</a> for a complete and up-to-date list.
+            </p>
+
+            <!-- 2025 -->
+            <div class="year-block">
+                <h3 class="year-label">2025</h3>
+
+                <div class="pub-item">
+                    <div class="pub-title">
+                        <a href="https://openreview.net/forum?id=puTxuiK2qO" target="_blank" rel="noopener">
+                            AdaFisher: Adaptive Second Order Optimization via Fisher Information
+                        </a>
+                    </div>
+                    <div class="pub-authors">
+                        Gomes, D.M., <strong>Zhang, Y.</strong>, Belilovsky, E., Wolf, G., Hosseini, M.S.
+                    </div>
+                    <div class="pub-venue">
+                        <span class="venue-tag venue-top">ICLR 2025</span>
+                    </div>
+                    <div class="pub-links">
+                        <a href="https://openreview.net/forum?id=puTxuiK2qO" target="_blank" rel="noopener">
+                            <i class="fas fa-file-alt"></i> Paper
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pub-item">
+                    <div class="pub-title">
+                        <a href="https://arxiv.org/abs/2410.12779" target="_blank" rel="noopener">
+                            Geometry-Aware Generative Autoencoders for Warped Riemannian Metric Learning and Generative Modeling on Data Manifolds
+                        </a>
+                    </div>
+                    <div class="pub-authors">
+                        Sun, X., Liao, D., MacDonald, K., <strong>Zhang, Y.</strong>, Liu, C., Huguet, G., Wolf, G., Adelstein, I., Rudner, T.G.J., Krishnaswamy, S.
+                    </div>
+                    <div class="pub-venue">
+                        <span class="venue-tag venue-top">AISTATS 2025</span>
+                    </div>
+                    <div class="pub-links">
+                        <a href="https://arxiv.org/abs/2410.12779" target="_blank" rel="noopener">
+                            <i class="fas fa-file-alt"></i> arXiv
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pub-item">
+                    <div class="pub-title">
+                        <a href="https://ieeexplore.ieee.org/document/10888433" target="_blank" rel="noopener">
+                            Principal Curvatures Estimation with Applications to Single Cell Data
+                        </a>
+                    </div>
+                    <div class="pub-authors">
+                        <strong>Zhang, Y.</strong>, Mezrag, L., Sun, X., Xu, C., Macdonald, K., Bhaskar, D., Krishnaswamy, S., Wolf, G., Rieck, B.
+                    </div>
+                    <div class="pub-venue">
+                        <span class="venue-tag venue-conf">ICASSP 2025</span>
+                    </div>
+                    <div class="pub-links">
+                        <a href="https://ieeexplore.ieee.org/document/10888433" target="_blank" rel="noopener">
+                            <i class="fas fa-file-alt"></i> IEEE
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pub-item">
+                    <div class="pub-title">
+                        <a href="https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1518762/full" target="_blank" rel="noopener">
+                            Deep Multimodal Representations and Classification of First-Episode Psychosis via Live Face Processing
+                        </a>
+                    </div>
+                    <div class="pub-authors">
+                        Singh, R., <strong>Zhang, Y.</strong>, Bhaskar, D., Srihari, V., Tek, C., Zhang, X., Noah, J.A., Krishnaswamy, S., Hirsch, J.
+                    </div>
+                    <div class="pub-venue">
+                        <span class="venue-tag venue-journal">Frontiers in Psychiatry, 2025</span>
+                    </div>
+                    <div class="pub-links">
+                        <a href="https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1518762/full" target="_blank" rel="noopener">
+                            <i class="fas fa-file-alt"></i> Paper
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pub-item">
+                    <div class="pub-title">
+                        Neural FIM for Learning Fisher Information Metrics from Point Cloud Data
+                        <span class="under-review-badge">Under Review – IEEE TPAMI</span>
+                    </div>
+                    <div class="pub-authors">
+                        <strong>Zhang, Y.</strong>, Huguet, G., Brouwer, E.D., Fasina, O., Tong, A., Chen, R.T.Q., Wolf, G., Nickel, M., Adelstein, I., Krishnaswamy, S.
+                    </div>
+                    <div class="pub-venue">
+                        <span class="venue-tag venue-preprint">Preprint</span>
+                    </div>
+                    <div class="pub-links">
+                        <a href="https://www.techrxiv.org/users/965767/articles/1341970-neural-fim-bridging-statistical-manifolds-and-generative-modeling-through-fisher-geometry" target="_blank" rel="noopener">
+                            <i class="fas fa-file-alt"></i> TechRxiv
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pub-item">
+                    <div class="pub-title">
+                        BDN: Blaschke Decomposition Networks
+                    </div>
+                    <div class="pub-authors">
+                        <strong>Zhang, Y.</strong>, Gomes, D., Liu, C., Coifman, R., Perlmutter, M., Wolf, G., Krishnaswamy, S., Bhaskar, D.
+                    </div>
+                    <div class="pub-venue">
+                        <span class="venue-tag venue-preprint">Preprint</span>
+                    </div>
+                    <div class="pub-links">
+                        <a href="https://www.techrxiv.org/users/965767/articles/1350844-bdn-blaschke-decomposition-networks" target="_blank" rel="noopener">
+                            <i class="fas fa-file-alt"></i> TechRxiv
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pub-item">
+                    <div class="pub-title">
+                        Neurospectrum: A Geometric and Topological Deep Learning Framework for Uncovering Spatiotemporal Signatures in Neural Activity
+                        <span class="under-review-badge">Under Review – Nature Computational Science</span>
+                    </div>
+                    <div class="pub-authors">
+                        Bhaskar, D., <strong>Zhang, Y.</strong>, Moore, J., Gao, F., Rieck, B., Wolf, G., Khasawneh, F., Munch, E., Noah, J.A., Pushkarskaya, H., Pittenger, C., Greco, V., Krishnaswamy, S.
+                    </div>
+                    <div class="pub-venue">
+                        <span class="venue-tag venue-preprint">Preprint</span>
+                    </div>
+                    <div class="pub-links">
+                        <a href="https://www.biorxiv.org/content/10.1101/2023.03.22.533807v3.full" target="_blank" rel="noopener">
+                            <i class="fas fa-file-alt"></i> bioRxiv
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pub-item">
+                    <div class="pub-title">
+                        <a href="https://arxiv.org/abs/2506.16602" target="_blank" rel="noopener">
+                            SlepNet: Spectral Subgraph Representation Learning for Neural Dynamics
+                        </a>
+                    </div>
+                    <div class="pub-authors">
+                        Viswanath, S., Singh, R., <strong>Zhang, Y.</strong>, Noah, J.A., Hirsch, J., Krishnaswamy, S.
+                    </div>
+                    <div class="pub-venue">
+                        <span class="venue-tag venue-preprint">Submitted to NeurIPS 2025</span>
+                    </div>
+                    <div class="pub-links">
+                        <a href="https://arxiv.org/abs/2506.16602" target="_blank" rel="noopener">
+                            <i class="fas fa-file-alt"></i> arXiv
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pub-item">
+                    <div class="pub-title">
+                        Graph Topological Property Recovery with Heat and Wave Dynamics-Based Features on Graphs
+                    </div>
+                    <div class="pub-authors">
+                        Bhaskar, D., <strong>Zhang, Y.</strong>, Xu, C., Sun, X., Fasina, O., Wolf, G., Nickel, M., Perlmutter, M., Krishnaswamy, S.
+                    </div>
+                    <div class="pub-venue">
+                        <span class="venue-tag venue-preprint">Submitted to NeurIPS 2025</span>
+                    </div>
+                    <div class="pub-links">
+                        <a href="https://deepai.org/publication/graph-topological-property-recovery-with-heat-and-wave-dynamics-based-features-on-graphs" target="_blank" rel="noopener">
+                            <i class="fas fa-file-alt"></i> Paper
+                        </a>
+                    </div>
+                </div>
+            </div><!-- /year-block 2025 -->
+
+            <!-- 2023 -->
+            <div class="year-block">
+                <h3 class="year-label">2023</h3>
+
+                <div class="pub-item">
+                    <div class="pub-title">
+                        <a href="https://openreview.net/pdf?id=ZADTuk2qB6" target="_blank" rel="noopener">
+                            A Heat Diffusion Perspective on Geodesic Preserving Dimensionality Reduction
+                        </a>
+                    </div>
+                    <div class="pub-authors">
+                        Huguet, G., Tong, A., Brouwer, E.D., <strong>Zhang, Y.</strong>, Wolf, G., Adelstein, I., Krishnaswamy, S.
+                    </div>
+                    <div class="pub-venue">
+                        <span class="venue-tag venue-top">NeurIPS 2023</span>
+                    </div>
+                    <div class="pub-links">
+                        <a href="https://openreview.net/pdf?id=ZADTuk2qB6" target="_blank" rel="noopener">
+                            <i class="fas fa-file-alt"></i> Paper
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pub-item">
+                    <div class="pub-title">
+                        <a href="https://proceedings.mlr.press/v202/fasina23a.html" target="_blank" rel="noopener">
+                            Neural FIM for Learning Fisher Information Metrics from Point Cloud Data
+                        </a>
+                    </div>
+                    <div class="pub-authors">
+                        Fasina, O., Huguet, G., Tong, A., <strong>Zhang, Y.</strong>, Wolf, G., Nickel, M., Adelstein, I., Krishnaswamy, S.
+                    </div>
+                    <div class="pub-venue">
+                        <span class="venue-tag venue-top">ICML 2023</span>
+                    </div>
+                    <div class="pub-links">
+                        <a href="https://proceedings.mlr.press/v202/fasina23a.html" target="_blank" rel="noopener">
+                            <i class="fas fa-file-alt"></i> PMLR
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pub-item">
+                    <div class="pub-title">
+                        <a href="https://www.researchgate.net/publication/372234530_Simulation-free_Schrodinger_bridges_via_score_and_flow_matching" target="_blank" rel="noopener">
+                            Simulation-Free Schrödinger Bridges via Score and Flow Matching
+                        </a>
+                    </div>
+                    <div class="pub-authors">
+                        Tong, A., Malkin, N., Fatras, K., Atanackovic, L., <strong>Zhang, Y.</strong>, Huguet, G., Wolf, G., Bengio, Y.
+                    </div>
+                    <div class="pub-venue">
+                        <span class="venue-tag venue-top">AISTATS 2023</span>
+                    </div>
+                    <div class="pub-links">
+                        <a href="https://www.researchgate.net/publication/372234530_Simulation-free_Schrodinger_bridges_via_score_and_flow_matching" target="_blank" rel="noopener">
+                            <i class="fas fa-file-alt"></i> Paper
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pub-item">
+                    <div class="pub-title">
+                        <a href="https://arxiv.org/abs/2302.00482v1" target="_blank" rel="noopener">
+                            Improving and Generalizing Flow-Based Generative Models with Minibatch Optimal Transport
+                        </a>
+                    </div>
+                    <div class="pub-authors">
+                        Tong, A., Malkin, N., Huguet, G., <strong>Zhang, Y.</strong>, Rector-Brooks, J., Fatras, K., Wolf, G., Bengio, Y.
+                    </div>
+                    <div class="pub-venue">
+                        <span class="venue-tag venue-journal">TMLR 2023</span>
+                    </div>
+                    <div class="pub-links">
+                        <a href="https://arxiv.org/abs/2302.00482v1" target="_blank" rel="noopener">
+                            <i class="fas fa-file-alt"></i> arXiv
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pub-item">
+                    <div class="pub-title">
+                        <a href="https://arxiv.org/abs/2310.12293" target="_blank" rel="noopener">
+                            Topologies for Geometric Flows and Continuous Dependence on Parameters
+                        </a>
+                    </div>
+                    <div class="pub-authors">
+                        Lewis, A., <strong>Zhang, Y.</strong>
+                    </div>
+                    <div class="pub-venue">
+                        <span class="venue-tag venue-preprint">Submitted to EJDE</span>
+                    </div>
+                    <div class="pub-links">
+                        <a href="https://arxiv.org/abs/2310.12293" target="_blank" rel="noopener">
+                            <i class="fas fa-file-alt"></i> arXiv
+                        </a>
+                    </div>
+                </div>
+            </div><!-- /year-block 2023 -->
+
+            <!-- 2022 -->
+            <div class="year-block">
+                <h3 class="year-label">2022</h3>
+
+                <div class="pub-item">
+                    <div class="pub-title">
+                        <a href="https://arxiv.org/abs/2202.00741" target="_blank" rel="noopener">
+                            The Exponential Map for Time-Varying Vector Fields
+                        </a>
+                    </div>
+                    <div class="pub-authors">
+                        <strong>Zhang, Y.</strong>
+                    </div>
+                    <div class="pub-venue">
+                        <span class="venue-tag venue-preprint">Preprint</span>
+                    </div>
+                    <div class="pub-links">
+                        <a href="https://arxiv.org/abs/2202.00741" target="_blank" rel="noopener">
+                            <i class="fas fa-file-alt"></i> arXiv
+                        </a>
+                    </div>
+                </div>
+            </div><!-- /year-block 2022 -->
+
+            <!-- 2021 -->
+            <div class="year-block">
+                <h3 class="year-label">2021</h3>
+
+                <div class="pub-item">
+                    <div class="pub-title">
+                        <a href="https://www.mdpi.com/2227-7390/9/3/278" target="_blank" rel="noopener">
+                            Nonlinear Spectrum and Fixed Point Index for a Class of Decomposable Operators
+                        </a>
+                    </div>
+                    <div class="pub-authors">
+                        Kang, S., <strong>Zhang, Y.</strong>, Feng, W.
+                    </div>
+                    <div class="pub-venue">
+                        <span class="venue-tag venue-journal">Mathematics, vol. 9, no. 3, 2021</span>
+                    </div>
+                    <div class="pub-links">
+                        <a href="https://www.mdpi.com/2227-7390/9/3/278" target="_blank" rel="noopener">
+                            <i class="fas fa-file-alt"></i> Paper
+                        </a>
+                    </div>
+                </div>
+            </div><!-- /year-block 2021 -->
+
+            <!-- 2020 -->
+            <div class="year-block">
+                <h3 class="year-label">2020</h3>
+
+                <div class="pub-item">
+                    <div class="pub-title">
+                        <a href="http://real.mtak.hu/124421/1/p8947.pdf" target="_blank" rel="noopener">
+                            Positive Solutions for Second-Order Differential Equations with Singularities and Separated Integral Boundary Conditions
+                        </a>
+                    </div>
+                    <div class="pub-authors">
+                        <strong>Zhang, Y.</strong>, Feng, W., Abdella, K.
+                    </div>
+                    <div class="pub-venue">
+                        <span class="venue-tag venue-journal">Electronic Journal of Qualitative Theory of Differential Equations, no. 75, 2020</span>
+                    </div>
+                    <div class="pub-links">
+                        <a href="http://real.mtak.hu/124421/1/p8947.pdf" target="_blank" rel="noopener">
+                            <i class="fas fa-file-alt"></i> PDF
+                        </a>
+                    </div>
+                </div>
+            </div><!-- /year-block 2020 -->
+
+        </section><!-- /publications -->
+
+        <hr class="section-divider">
+
+        <!-- ===== TEACHING ===== -->
+        <section id="teaching">
+            <h2 class="section-header">Teaching</h2>
+
+            <h3 class="subsection-header">Instructor</h3>
+
+            <div class="teaching-item">
+                <div class="course-title">
+                    <a href="https://mat6493.wolf.courses/" target="_blank" rel="noopener">MATH 6493: Geometric Data Analysis</a>
+                </div>
+                <div class="course-details">Mila – Quebec AI Institute &ensp;·&ensp; Fall 2023 &amp; Fall 2025</div>
+            </div>
+
+            <div class="teaching-item">
+                <div class="course-title">
+                    <a href="https://sumry.yale.edu/sumry-2024" target="_blank" rel="noopener">SUMRY – Summer Undergraduate Math Research at Yale</a>
+                </div>
+                <div class="course-details">Yale University &ensp;·&ensp; Summer 2024</div>
+            </div>
+
+            <div class="teaching-item">
+                <div class="course-title">MATH 228: Complex Analysis</div>
+                <div class="course-details">Queen's University &ensp;·&ensp; Winter 2022 (in-person) &amp; Winter 2021</div>
+            </div>
+
+            <div class="teaching-item">
+                <div class="course-title">MTHE 235: Introduction to Differential Equations</div>
+                <div class="course-details">Queen's University &ensp;·&ensp; Fall 2021 (267 students)</div>
+            </div>
+
+            <h3 class="subsection-header mt-4">Teaching Assistant</h3>
+
+            <p class="ta-details">
+                <strong>Queen's University:</strong> Linear Algebra, Calculus, Advanced Calculus, Applied Mathematics,
+                Real Analysis, Mathematical Methods for Engineering and Physics,
+                Mathematics of Engineering Systems, Differential Geometry.
+            </p>
+            <p class="ta-details">
+                <strong>Trent University:</strong> Multivariable Calculus III &amp; IV, Ordinary Differential Equations.
+            </p>
+
+        </section>
+
+        <hr class="section-divider">
+
+        <!-- ===== HONORS ===== -->
+        <section id="honors">
+            <h2 class="section-header">Honors &amp; Awards</h2>
+            <ul class="honors-list">
+                <li>Honorable Mention, Mathematical Contest in Modelling (USA), 2013</li>
+                <li>Silver Medal, National Mathematical Contest (China), 2013</li>
+                <li>Gold Medal, National Mathematical Contest in Modelling (China), 2013</li>
+                <li>Gold Medal, Tianjin Mathematical Contest (China), 2012</li>
+                <li>Second Grand Prize, National Olympic Contest in Mathematics (China), 2009</li>
+            </ul>
+        </section>
+
+    </div><!-- /main-content -->
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <div class="container-lg">
+            <p>
+                <a href="mailto:yanlei.zhang@mila.quebec">yanlei.zhang@mila.quebec</a>
+                &ensp;·&ensp;
+                <a href="https://scholar.google.com/citations?user=2jemfnQAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+            </p>
+            <p class="footer-credit">
+                &copy; 2025 Yanlei Zhang &ensp;·&ensp;
+                Powered by <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Navbar shadow on scroll
+        const nav = document.getElementById('mainNav');
+        window.addEventListener('scroll', () => {
+            nav.classList.toggle('scrolled', window.scrollY > 10);
+        });
+
+        // Smooth scroll with navbar offset
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', e => {
+                const target = document.querySelector(a.getAttribute('href'));
+                if (target) {
+                    e.preventDefault();
+                    window.scrollTo({ top: target.offsetTop - 68, behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
