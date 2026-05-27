@@ -2,8 +2,6 @@
 layout: about
 title: Home
 permalink: /
-subtitle: >
-  <a href="https://www.queensu.ca/" target="_blank">Queen's University</a>
 
 profile:
   align: right
@@ -20,8 +18,10 @@ social: true
 news: true
 latest_posts: false
 selected_papers: true
-invited_talks: false
+invited_talks: true
 ---
+
+# The <span class="lab-name-accent">XYZ</span> Lab
 
 I am an Assistant Professor at School of Computing at Queen's University. 
 
