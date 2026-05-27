@@ -6,7 +6,7 @@ permalink: /
 profile:
   align: right
   image: Kaly.jpg
-  image_circular: true
+  image_circular: false
   more_info: |
     <b>Assistant Professor</b><br>
     Queen's University<br>
