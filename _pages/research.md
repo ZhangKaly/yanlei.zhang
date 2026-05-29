@@ -3,7 +3,7 @@ layout: page
 title: Research
 permalink: /research/
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 My research focuses on developing novel machine learning methodologies informed by tools from advanced mathematics, with a focus on applications in biomedical discovery.

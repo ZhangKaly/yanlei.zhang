@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact
+title: Contact Us
 permalink: /contact/
 nav: true
 nav_order: 5
@@ -12,7 +12,10 @@ Feel free to reach out for collaborations, questions about my research, or gener
 
 **Mila – Quebec AI Institute**: yanlei.zhang@mila.quebec
 
-**MIT**: ykzhang@mit.edu
+**Harvard-MIT**: ykzhang@mit.edu
+
+**Yale**: yz2472@yale.edu
+
 
 ### Connect
 
