@@ -27,11 +27,11 @@ Our lab develops novel machine learning methodologies motivated by challenges in
 
 Our current research focuses include:
 
-- * Generative modeling, flow matching, and optimal transport for cellular dynamics and trajectory inference
-- * Diffusion geometry and manifold learning for single-cell and high-dimensional biomedical data
-- * Geometric deep learning, graph signal processing, and PDE-inspired methods for molecular and structural biology
-- * Neural representation learning and dynamical analysis of brain activity and neural systems
-- * Theoretical foundations of machine learning, including geometry-aware learning and information-theoretic approaches
+- **Generative AI**: Flow matching, diffusion models, and optimal transport for cellular dynamics and trajectory inference
+- **Geometric Deep Learning**: Diffusion geometry and manifold learning for single-cell and high-dimensional biomedical data
+- **Signal Processing**: Graph signal processing and PDE-inspired methods for molecular and structural biology
+- **Brain Decoding**: Neural representation learning and dynamical analysis of brain activity and neural systems
+- **Learning Theory**: Theoretical foundations of machine learning, including geometry-aware learning and information-theoretic approaches
 
 By bridging modern machine learning with advanced mathematics, our goal is to develop robust, interpretable, and scientifically meaningful AI methods that advance biomedical research and our understanding of complex systems.
 

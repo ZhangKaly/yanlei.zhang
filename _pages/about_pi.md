@@ -1,11 +1,10 @@
 ---
-layout: about
+layout: page
 title: About
 permalink: /about_pi/
 nav: true
 nav_order: 2
 ---
-
 
 I am an Assistant Professor in the School of Computing at Queen's University. 
 
